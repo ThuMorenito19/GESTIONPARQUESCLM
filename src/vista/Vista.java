@@ -94,6 +94,7 @@ public class Vista extends JFrame {
 			String[] values = new String[] {""};
 			public int getSize() {
 				return values.length;
+				
 			}
 			public Object getElementAt(int index) {
 				return values[index];
