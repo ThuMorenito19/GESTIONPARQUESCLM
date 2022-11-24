@@ -6,15 +6,15 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/victor/Documents/22-23/INTERFACES/INTER/GestionParquesCLM/lib/jackson-annotations-2.9.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/victor/Documents/22-23/INTERFACES/INTER/GestionParquesCLM/lib/jackson-annotations-2.9.9-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/victor/Documents/22-23/INTERFACES/INTER/GestionParquesCLM/lib/jackson-annotations-2.9.9-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/victor/Documents/22-23/INTERFACES/INTER/GestionParquesCLM/lib/jackson-core-2.9.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/victor/Documents/22-23/INTERFACES/INTER/GestionParquesCLM/lib/jackson-core-2.9.9-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/victor/Documents/22-23/INTERFACES/INTER/GestionParquesCLM/lib/jackson-core-2.9.9-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/victor/Documents/22-23/INTERFACES/INTER/GestionParquesCLM/lib/jackson-databind-2.9.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/victor/Documents/22-23/INTERFACES/INTER/GestionParquesCLM/lib/jackson-databind-2.9.9-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/victor/Documents/22-23/INTERFACES/INTER/GestionParquesCLM/lib/jackson-databind-2.9.9-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/victor/Documents/22-23/INTERFACES/INTER/GestionParquesCLM/lib/mysql-connector-java-8.0.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adrian/git/GESTIONPARQUESCLM/lib/jackson-annotations-2.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adrian/git/GESTIONPARQUESCLM/lib/jackson-annotations-2.9.9-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adrian/git/GESTIONPARQUESCLM/lib/jackson-annotations-2.9.9-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adrian/git/GESTIONPARQUESCLM/lib/jackson-core-2.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adrian/git/GESTIONPARQUESCLM/lib/jackson-core-2.9.9-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adrian/git/GESTIONPARQUESCLM/lib/jackson-core-2.9.9-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adrian/git/GESTIONPARQUESCLM/lib/jackson-databind-2.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adrian/git/GESTIONPARQUESCLM/lib/jackson-databind-2.9.9-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adrian/git/GESTIONPARQUESCLM/lib/jackson-databind-2.9.9-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adrian/git/GESTIONPARQUESCLM/lib/mysql-connector-java-8.0.18.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
