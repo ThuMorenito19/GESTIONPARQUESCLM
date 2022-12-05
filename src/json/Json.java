@@ -38,9 +38,7 @@ public class Json {
 		}
 	}
 	System.out.println("Hemos pasado los datos del url a un fichero JSON");
-	
-	Connection conex=json.createConnection();
-	System.out.println("Conexión realizada con éxito");
+
 		
 	
 	}
@@ -65,30 +63,5 @@ public class Json {
 		return resultado.toString();
 	}
 	
-	public Connection createConnection() throws ClassNotFoundException, SQLException {
-		Connection connection = null;
-		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/PARQUESCLM?serverTimezone=UTC","root", "victor21");
-			//set autocommit false
-			connection.setAutoCommit(false);			
-		} catch (ClassNotFoundException | SQLException e) {
-			e.printStackTrace();
-			throw e;
-		}
-
-		return connection;
-	}
 	
-	public void disconnect(Connection connection) throws SQLException {
-		try {
-			if (null != connection) {
-				connection.close();
-				connection = null;
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-			throw e;
-		}
-	}
 }

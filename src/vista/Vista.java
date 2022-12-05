@@ -19,6 +19,9 @@ import javax.swing.JTextPane;
 import java.awt.Color;
 import javax.swing.JList;
 import javax.swing.AbstractListModel;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class Vista extends JFrame {
 
@@ -27,6 +30,7 @@ public class Vista extends JFrame {
 	public JComboBox comboBoxSegundoFiltro,comboBoxPrimerFiltro;
 	public JTextPane txtpninformacionDelElemento;
 	public JList listListaParques;
+	public JButton btnFiltrar,btnConfirmar;
 	/**
 	 * Launch the application.
 	 */
@@ -69,7 +73,7 @@ public class Vista extends JFrame {
 		
 		comboBoxSegundoFiltro = new JComboBox();
 		comboBoxSegundoFiltro.setModel(new DefaultComboBoxModel(new String[] {"(Seleccion Filtro)"}));
-		comboBoxSegundoFiltro.setBounds(364, 401, 129, 21);
+		comboBoxSegundoFiltro.setBounds(408, 401, 129, 21);
 		contentPane.add(comboBoxSegundoFiltro);
 		
 		comboBoxPrimerFiltro = new JComboBox();
@@ -102,6 +106,14 @@ public class Vista extends JFrame {
 		});
 		listListaParques.setBounds(0, 426, 683, 197);
 		contentPane.add(listListaParques);
+		
+		btnFiltrar = new JButton("FILTRAR");
+		btnFiltrar.setBounds(269, 401, 85, 21);
+		contentPane.add(btnFiltrar);
+		
+		btnConfirmar = new JButton("Confirmar");
+		btnConfirmar.setBounds(582, 401, 85, 21);
+		contentPane.add(btnConfirmar);
 		
 	}
 }
